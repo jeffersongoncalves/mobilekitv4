@@ -1,0 +1,97 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/Public/**/*';
+@source '../../../../resources/views/components/**/*';
+@source '../../../../resources/views/filament/public/**/*';
+
+::-webkit-scrollbar {
+    width: .56vw !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px !important;
+    height: 0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1 !important;
+    border: 0px none #ffffff !important;
+    border-radius: 50px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff !important;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #000000 !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #666666 !important;
+    border: 0px none #ffffff !important;
+    /* border-radius: 81px; */
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #666666 !important;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333333 !important;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent !important;
+}
+
+.fi-breadcrumbs .fi-breadcrumbs-item-label {
+    @apply text-xs!;
+}
+
+.choices__item--selectable {
+    @apply cursor-pointer!;
+}
+
+.fi-sidebar {
+    @apply bg-white! dark:bg-gray-900!;
+}
+
+.fi-sidebar-item a,
+.fi-tenant-menu-trigger {
+    @apply hover:bg-gray-200/50! hover:dark:bg-gray-800!;
+}
+
+.fi-sidebar-item-active a {
+    @apply bg-gray-200/50! dark:bg-gray-800!;
+}
+
+.fi-btn-color-primary {
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(var(--primary-500), 1),
+            rgba(var(--primary-900), 1)
+    ) !important;
+    box-shadow:
+            0 4px 6px -1px #0000001a,
+            0 2px 4px -2px #0000001a !important;
+}
+
+.bg-primary-700-gradient {
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(var(--primary-300), 1),
+            rgba(var(--primary-700), 1)
+    ) !important;
+}
+
+.fi-btn-color-primary {
+    transition: 0.5s !important;
+    background-size: 200% auto !important;
+}
+
+.fi-btn-color-primary:hover {
+    background-position: right center !important; /* change the direction of the change here */
+    text-decoration: none !important;
+}
