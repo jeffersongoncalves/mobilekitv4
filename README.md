@@ -9,31 +9,46 @@
 ## About MobileKit
 
 MobileKit is a robust starter kit built on Laravel 12.x, Filament 4.x and NativePHP 1.x, designed to accelerate the development of modern
-desktop and mobile applications with a ready-to-use multi-panel structure.
+native desktop and mobile applications with a ready-to-use multi-panel structure. Build native iOS and Android applications using PHP,
+alongside desktop applications for Windows, macOS, and Linux.
 
 ## Features
 
 - **Laravel 12.x** - The latest version of the most elegant PHP framework
 - **Filament 4.x** - Powerful and flexible admin framework
-- **NativePHP 1.x** - Build native desktop and mobile applications using PHP
-  - **Desktop Support** - Create native desktop applications with Electron
-  - **Mobile Support** - Build native mobile applications for Android and iOS
+- **NativePHP 1.x** - Build native desktop and mobile applications with PHP
+- **Mobile Development** - Native iOS and Android app development with NativePHP Mobile
+- **Desktop Development** - Native Windows, macOS, and Linux applications with NativePHP Electron
 - **Multi-Panel Structure** - Includes three pre-configured panels:
     - Admin Panel (`/admin`) - For system administrators
     - App Panel (`/app`) - For authenticated application users
-    - Public Panel (frontend interface) - For visitors
+    - Guest Panel (frontend interface) - For visitors
+- **Mobile Configuration** - Comprehensive mobile app settings including app ID, version management, deep linking, and platform-specific configurations
+- **Cross-Platform Support** - Single codebase for iOS, Android, Windows, macOS, and Linux
 - **Environment Configuration** - Centralized configuration through the `config/mobilekit.php` file
+- **Testing Framework** - Pest PHP for elegant testing
+- **Code Quality Tools** - Laravel Pint for code formatting and Larastan for static analysis
+- **Development Tools** - IDE Helper, Laravel Pail for log monitoring
 
 ## System Requirements
 
-### Basic Requirements
+### General Requirements
 - PHP 8.2 or higher
 - Composer
 - Node.js and PNPM
 
-### Additional Requirements for Mobile Development
-- **Android Development**: Android Studio, Android SDK, JDK 11+
-- **iOS Development**: Xcode (macOS only), iOS SDK, JDK 11+
+### Desktop Development
+- No additional requirements
+
+### Mobile Development
+- **Android Development:**
+    - Android SDK
+    - Android Studio (recommended)
+    - Java Development Kit (JDK) 11 or higher
+- **iOS Development (macOS only):**
+    - Xcode 14 or higher
+    - iOS Simulator
+    - Apple Developer Account (for device testing and App Store distribution)
 
 ## Installation
 
@@ -134,7 +149,7 @@ Panels can be customized through their respective providers:
 
 - `app/Providers/Filament/AdminPanelProvider.php`
 - `app/Providers/Filament/AppPanelProvider.php`
-- `app/Providers/Filament/PublicPanelProvider.php`
+- `app/Providers/Filament/GuestPanelProvider.php`
 
 Alternatively, these settings are also consolidated in the `config/mobilekit.php` file for easier management.
 
