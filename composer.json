@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "jeffersongoncalves/mobilekitv4",
     "type": "project",
-    "description": "The skeleton application for NativePHP, FilamentPHP and Laravel - Build native desktop applications.",
+    "description": "The skeleton application for NativePHP, FilamentPHP and Laravel - Build native desktop and mobile applications.",
     "keywords": [
         "laravel-starter-kit",
         "starter-kit",
@@ -13,6 +13,10 @@
         "filament",
         "nativephp",
         "desktop-app",
+        "mobile-app",
+        "ios-app",
+        "android-app",
+        "cross-platform",
         "kit",
         "start-kit"
     ],

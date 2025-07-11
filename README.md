@@ -9,13 +9,15 @@
 ## About MobileKit
 
 MobileKit is a robust starter kit built on Laravel 12.x, Filament 4.x and NativePHP 1.x, designed to accelerate the development of modern
-desktop applications with a ready-to-use multi-panel structure.
+desktop and mobile applications with a ready-to-use multi-panel structure.
 
 ## Features
 
 - **Laravel 12.x** - The latest version of the most elegant PHP framework
 - **Filament 4.x** - Powerful and flexible admin framework
-- **NativePHP 1.x** - Build native desktop applications using PHP
+- **NativePHP 1.x** - Build native desktop and mobile applications using PHP
+  - **Desktop Support** - Create native desktop applications with Electron
+  - **Mobile Support** - Build native mobile applications for Android and iOS
 - **Multi-Panel Structure** - Includes three pre-configured panels:
     - Admin Panel (`/admin`) - For system administrators
     - App Panel (`/app`) - For authenticated application users
@@ -24,9 +26,14 @@ desktop applications with a ready-to-use multi-panel structure.
 
 ## System Requirements
 
+### Basic Requirements
 - PHP 8.2 or higher
 - Composer
 - Node.js and PNPM
+
+### Additional Requirements for Mobile Development
+- **Android Development**: Android Studio, Android SDK, JDK 11+
+- **iOS Development**: Xcode (macOS only), iOS SDK, JDK 11+
 
 ## Installation
 
@@ -88,6 +95,8 @@ MobileKit comes pre-configured with a custom authentication system that supports
 
 ## Development
 
+### Desktop Development
+
 ``` bash
 # Run the development server with logs, queues and asset compilation
 composer native:dev
@@ -96,6 +105,26 @@ composer native:dev
 php artisan native:serve
 pnpm run dev
 ```
+
+### Mobile Development
+
+For mobile application development, NativePHP Mobile provides additional commands:
+
+``` bash
+# Build for Android
+php artisan native:android
+
+# Build for iOS (macOS only)
+php artisan native:ios
+
+# Run mobile development server
+php artisan native:serve --mobile
+```
+
+**Mobile Development Requirements:**
+- **Android**: Android Studio and Android SDK
+- **iOS**: Xcode (macOS only) and iOS SDK
+- **Both**: Java Development Kit (JDK) 11 or higher
 
 ## Customization
 
@@ -132,6 +161,9 @@ MobileKit includes support for:
 - Tailwind CSS integration
 - Database queue configuration
 - Customizable panel routing and branding
+- Native desktop application development (Electron)
+- Native mobile application development (Android/iOS)
+- Cross-platform deployment capabilities
 
 ## License
 
