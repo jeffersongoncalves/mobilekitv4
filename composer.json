@@ -28,7 +28,7 @@
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6",
         "nativephp/electron": "^1.1",
-        "nativephp/mobile": "1.0.18"
+        "nativephp/mobile": "*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",

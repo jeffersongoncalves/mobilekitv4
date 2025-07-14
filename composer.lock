@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4890e2a4701a89aa64ea6e9fd0e1f093",
+    "content-hash": "fd676eba85cd3a9550a084724fdcbebb",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -3606,23 +3606,23 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "1.0.18",
+            "version": "1.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/9f4c40b6-a378-48ef-9a08-9e8dc34324cc/nativephp-1.0.18.zip",
-                "reference": "bf6194e05a4924105a3ca2aa66c98a1cdd63787b",
-                "shasum": "40fbb7fca484577398214f1039982f0e35e13dd1"
+                "url": "https://nativephp.composer.sh/download/9f600e07-22ed-44cd-a677-21df8ab53f5c/nativephp-1.1.0.zip",
+                "reference": "a3c769e0a22ed30d65a907831873728684c36330",
+                "shasum": "6c908f94f24ff9c4d6f7523932b863ea88926a31"
             },
             "require": {
                 "ext-dom": "*",
                 "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^7.9",
                 "illuminate/contracts": "^10.0|^11.0|^12.0",
                 "laravel/prompts": "^0.1.1|^0.2|^0.3",
                 "php": "^8.3",
                 "spatie/laravel-package-tools": "^1.14.0"
             },
             "require-dev": {
-                "guzzlehttp/guzzle": "^7.9",
                 "laravel/pint": "^1.0",
                 "nunomaduro/collision": "^7.9",
                 "nunomaduro/larastan": "^2.0.1",
@@ -3703,7 +3703,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-07-02T23:22:01+00:00"
+            "time": "2025-07-12T19:36:52+00:00"
         },
         {
             "name": "nativephp/php-bin",
