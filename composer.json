@@ -78,13 +78,13 @@
             "@php artisan ide-helper:generate -q",
             "@php artisan ide-helper:meta -q",
             "@php artisan ide-helper:model --write --reset -q -n",
-            "./vendor/bin/pint --config=pint.json -q"
+            "@php ./vendor/bin/pint --config=pint.json -q"
         ],
         "pint": [
-            "./vendor/bin/pint --config=pint.json -q"
+            "@php ./vendor/bin/pint --config=pint.json -q"
         ],
         "phpstan": [
-            "./vendor/bin/phpstan"
+            "@php ./vendor/bin/phpstan"
         ],
         "dev": [
             "Composer\\Config::disableProcessTimeout",
