@@ -21,6 +21,8 @@ jobs:
 
       - name: Install composer dependencies
         uses: ramsey/composer-install@v3
+        env:
+          COMPOSER_AUTH: '{"http-basic": {"nativephp.composer.sh": {"username": "${{secrets.NATIVEPHP_USERNAME}}", "password": "${{secrets.NATIVEPHP_PASSWORD}}"}}}'
 
       - name: Run PHPStan
         run: ./vendor/bin/phpstan --error-format=github

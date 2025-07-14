@@ -2,6 +2,13 @@
 
 version: 2
 
+registries:
+  composer-nativephp-composer-sh:
+    type: composer-repository
+    url: https://nativephp.composer.sh
+    username: ${{secrets.NATIVEPHP_USERNAME}}
+    password: ${{secrets.NATIVEPHP_PASSWORD}}
+
 updates:
 
   # Maintain dependencies for GitHub Actions
@@ -29,6 +36,8 @@ updates:
   # Maintain dependencies for Composer
   - package-ecosystem: "composer"
     directory: "/"
+    registries:
+      - composer-nativephp-composer-sh
     schedule:
       interval: "weekly"
     groups:
