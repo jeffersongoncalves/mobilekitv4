@@ -3606,12 +3606,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "1.5.6",
+            "version": "1.5.8",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/9fabd1c4-ca4a-49f1-8151-19a3ea91dde1/nativephp-1.5.6.zip",
-                "reference": "1a913e3b1c29db0d757214df0b1338cb909db752",
-                "shasum": "11e5cfbf23469d6d1a986c5a0690a2c5b4b1563b"
+                "url": "https://nativephp.composer.sh/download/9fae65c5-7dad-4074-93d7-937e6c90d5c3/nativephp-1.5.8.zip",
+                "reference": "eec45f34e3a163f82f4d592598f08dcf629edf0a",
+                "shasum": "c83c2c9f0a80129d658478ecf23ef6def89a8b77"
             },
             "require": {
                 "ext-dom": "*",
@@ -3704,7 +3704,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-08-19T11:31:16+00:00"
+            "time": "2025-08-20T18:16:47+00:00"
         },
         {
             "name": "nativephp/php-bin",
