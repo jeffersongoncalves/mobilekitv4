@@ -3606,12 +3606,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "1.5.8",
+            "version": "1.5.9",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/9fae65c5-7dad-4074-93d7-937e6c90d5c3/nativephp-1.5.8.zip",
-                "reference": "eec45f34e3a163f82f4d592598f08dcf629edf0a",
-                "shasum": "c83c2c9f0a80129d658478ecf23ef6def89a8b77"
+                "url": "https://nativephp.composer.sh/download/9faeccfb-a842-42da-b599-e3ca17951a90/nativephp-1.5.9.zip",
+                "reference": "b165796f3f14194fab64be91174de6a298ecec0f",
+                "shasum": "c51288bcc237070cc703cc9f6bc61122dfb2869f"
             },
             "require": {
                 "ext-dom": "*",
@@ -3704,7 +3704,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-08-20T18:16:47+00:00"
+            "time": "2025-08-20T23:05:23+00:00"
         },
         {
             "name": "nativephp/php-bin",
@@ -4396,16 +4396,16 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.9.3",
+            "version": "1.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54"
+                "reference": "638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/e3fac8b24f56113f7cb96af14958c0dd16330f54",
-                "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d",
+                "reference": "638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d",
                 "shasum": ""
             },
             "require": {
@@ -4413,7 +4413,7 @@
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-                "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+                "phpunit/phpunit": "^8.5.44 || ^9.6.25 || ^10.5.53 || ^11.5.34"
             },
             "type": "library",
             "extra": {
@@ -4455,7 +4455,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.9.3"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.4"
             },
             "funding": [
                 {
@@ -4467,7 +4467,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-20T21:41:07+00:00"
+            "time": "2025-08-21T11:53:16+00:00"
         },
         {
             "name": "pragmarx/google2fa",
