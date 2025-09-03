@@ -2038,16 +2038,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.26.4",
+            "version": "v12.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "085a367a32ba86fcfa647bfc796098ae6f795b09"
+                "reference": "3fdcf8f3788fcb154df12ebf1fe0dd4a199e92a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/085a367a32ba86fcfa647bfc796098ae6f795b09",
-                "reference": "085a367a32ba86fcfa647bfc796098ae6f795b09",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3fdcf8f3788fcb154df12ebf1fe0dd4a199e92a8",
+                "reference": "3fdcf8f3788fcb154df12ebf1fe0dd4a199e92a8",
                 "shasum": ""
             },
             "require": {
@@ -2251,7 +2251,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-08-29T14:15:53+00:00"
+            "time": "2025-09-02T15:32:28+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -3606,12 +3606,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "1.6.1",
+            "version": "1.7.1",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/9fc05c6a-3571-4b0f-acf5-616f1492c469/nativephp-1.6.1.zip",
-                "reference": "437cd108d5e80d37e0a1e38e5f540749abb1c746",
-                "shasum": "7c1119acfd47800659e1d3875397a61ae86272e5"
+                "url": "https://nativephp.composer.sh/download/9fc561f7-34fe-464c-a732-0572c044e3fe/nativephp-1.7.1.zip",
+                "reference": "c4d695f0e500ac573f48e76a47639952fc15c738",
+                "shasum": "bb67f18bce06aaa1333bbdd05a08119868fc4a0c"
             },
             "require": {
                 "ext-dom": "*",
@@ -3704,7 +3704,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-08-29T16:35:31+00:00"
+            "time": "2025-09-01T04:30:11+00:00"
         },
         {
             "name": "nativephp/php-bin",
