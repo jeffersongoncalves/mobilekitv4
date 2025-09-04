@@ -2038,20 +2038,20 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.27.0",
+            "version": "v12.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3fdcf8f3788fcb154df12ebf1fe0dd4a199e92a8"
+                "reference": "aa2e8af4c7e84e83a857d5171cf784c7720da4e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3fdcf8f3788fcb154df12ebf1fe0dd4a199e92a8",
-                "reference": "3fdcf8f3788fcb154df12ebf1fe0dd4a199e92a8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/aa2e8af4c7e84e83a857d5171cf784c7720da4e6",
+                "reference": "aa2e8af4c7e84e83a857d5171cf784c7720da4e6",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.11|^0.12|^0.13",
+                "brick/math": "^0.11|^0.12|^0.13|^0.14",
                 "composer-runtime-api": "^2.2",
                 "doctrine/inflector": "^2.0.5",
                 "dragonmantank/cron-expression": "^3.4",
@@ -2125,6 +2125,7 @@
                 "illuminate/filesystem": "self.version",
                 "illuminate/hashing": "self.version",
                 "illuminate/http": "self.version",
+                "illuminate/json-schema": "self.version",
                 "illuminate/log": "self.version",
                 "illuminate/macroable": "self.version",
                 "illuminate/mail": "self.version",
@@ -2157,7 +2158,8 @@
                 "league/flysystem-read-only": "^3.25.1",
                 "league/flysystem-sftp-v3": "^3.25.1",
                 "mockery/mockery": "^1.6.10",
-                "orchestra/testbench-core": "^10.6.3",
+                "opis/json-schema": "^2.4.1",
+                "orchestra/testbench-core": "^10.6.5",
                 "pda/pheanstalk": "^5.0.6|^7.0.0",
                 "php-http/discovery": "^1.15",
                 "phpstan/phpstan": "^2.0",
@@ -2251,7 +2253,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-09-02T15:32:28+00:00"
+            "time": "2025-09-03T17:04:36+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -3606,12 +3608,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "1.7.1",
+            "version": "1.9.0",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/9fc561f7-34fe-464c-a732-0572c044e3fe/nativephp-1.7.1.zip",
-                "reference": "c4d695f0e500ac573f48e76a47639952fc15c738",
-                "shasum": "bb67f18bce06aaa1333bbdd05a08119868fc4a0c"
+                "url": "https://nativephp.composer.sh/download/9fcab1f3-a344-4ba2-9794-7dd00708b09b/nativephp-1.9.0.zip",
+                "reference": "a924c153fa37d1846e1ba52f87a0a8f6e91ba31a",
+                "shasum": "80364dedb115e1a9cae24f5e29b304c041fc7b9d"
             },
             "require": {
                 "ext-dom": "*",
@@ -3704,7 +3706,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-09-01T04:30:11+00:00"
+            "time": "2025-09-03T19:52:58+00:00"
         },
         {
             "name": "nativephp/php-bin",
