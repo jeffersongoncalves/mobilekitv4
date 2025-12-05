@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0abb4d947df6c7b69a02bc05c1767fd",
+    "content-hash": "46acfb2e85245f8c1d1ac6018674d7bf",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -3470,12 +3470,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "1.13.0",
+            "version": "2.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/a037a352-8208-4b7a-913d-e56be0253845/nativephp-1.13.0.zip",
-                "reference": "0d8732ea745b370502ae5981fd16aeb262fe467c",
-                "shasum": "b1f46c7f15e645df703bfff9293ea8adee9059d8"
+                "url": "https://nativephp.composer.sh/download/a07db726-b0f6-4839-a15d-17980cb346b3/nativephp-2.0.1.zip",
+                "reference": "cd3d308657fe6d79c3219b19fb7dba905445d231",
+                "shasum": "1762a0fe49c25c76da0e885c57340b8cfe8415ab"
             },
             "require": {
                 "ext-dom": "*",
@@ -3546,18 +3546,13 @@
             "authors": [
                 {
                     "name": "Simon Hamp",
-                    "role": "Developer",
+                    "role": "Co-founder",
                     "email": "simon@nativephp.com"
                 },
                 {
                     "name": "Shane Rosenthal",
-                    "role": "Developer",
+                    "role": "Co-founder",
                     "email": "shane@nativephp.com"
-                },
-                {
-                    "name": "Marcel Pociot",
-                    "role": "Developer",
-                    "email": "marcel@beyondco.de"
                 }
             ],
             "description": "NativePHP for Mobile",
@@ -3568,7 +3563,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-10-27T23:37:18+00:00"
+            "time": "2025-12-01T19:40:43+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -9396,16 +9391,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.48.1",
+            "version": "v1.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "ef122b223f5fca5e5d88bda5127c846710886329"
+                "reference": "9177d5de1c8247166b92ea6049c2b069d2a1802f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/ef122b223f5fca5e5d88bda5127c846710886329",
-                "reference": "ef122b223f5fca5e5d88bda5127c846710886329",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/9177d5de1c8247166b92ea6049c2b069d2a1802f",
+                "reference": "9177d5de1c8247166b92ea6049c2b069d2a1802f",
                 "shasum": ""
             },
             "require": {
@@ -9455,7 +9450,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2025-11-17T22:05:34+00:00"
+            "time": "2025-12-03T17:16:36+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -12302,5 +12297,5 @@
         "ext-pcntl": "7.1",
         "ext-posix": "7.1"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
