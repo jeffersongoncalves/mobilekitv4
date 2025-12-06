@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46acfb2e85245f8c1d1ac6018674d7bf",
+    "content-hash": "cddf8395eb84b2bf1a79cd3243befd31",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -8283,6 +8283,83 @@
                 }
             ],
             "time": "2024-11-21T01:49:47+00:00"
+        },
+        {
+            "name": "wallacemartinss/filament-icon-picker",
+            "version": "v1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wallacemartinss/filament-icon-picker.git",
+                "reference": "a4e322c64612a1cb7287b633dbcca687b6c2f710"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wallacemartinss/filament-icon-picker/zipball/a4e322c64612a1cb7287b633dbcca687b6c2f710",
+                "reference": "a4e322c64612a1cb7287b633dbcca687b6c2f710",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "filament/filament": "^4.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "suggest": {
+                "blade-ui-kit/blade-heroicons": "Heroicons - 1300+ icons (recommended)",
+                "blade-ui-kit/blade-tabler-icons": "Tabler Icons - 4400+ icons",
+                "codeat3/blade-bootstrap-icons": "Bootstrap Icons - 2000+ icons",
+                "codeat3/blade-google-material-design-icons": "Google Material Design - 10000+ icons",
+                "codeat3/blade-phosphor-icons": "Phosphor Icons - 9000+ icons",
+                "codeat3/blade-remix-icon": "Remix Icons - 2800+ icons",
+                "mallardduck/blade-lucide-icons": "Lucide Icons - 1400+ icons",
+                "owenvoke/blade-fontawesome": "Font Awesome - 2800+ icons"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wallacemartinss\\FilamentIconPicker\\FilamentIconPickerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wallacemartinss\\FilamentIconPicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wallace Martins",
+                    "email": "wallacemartinss@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A beautiful icon picker component for Filament v4 using blade-ui-kit/blade-icons",
+            "homepage": "https://github.com/wallacemartinss/filament-icon-picker",
+            "keywords": [
+                "FontAwesome",
+                "Heroicons",
+                "Phosphor",
+                "blade-icons",
+                "filament",
+                "filament-plugin",
+                "icon-picker",
+                "laravel",
+                "material-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/wallacemartinss/filament-icon-picker/issues",
+                "source": "https://github.com/wallacemartinss/filament-icon-picker/tree/v1.1.5"
+            },
+            "time": "2025-12-06T18:21:04+00:00"
         }
     ],
     "packages-dev": [
