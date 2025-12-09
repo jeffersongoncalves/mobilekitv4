@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.3.1 - 2025-12-09
+
+### What's Changed
+
+* build(deps): bump the actions-deps group across 1 directory with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/63
+* build(deps): bump nativephp/mobile from 2.0.1 to 2.1.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/64
+* Add filament-icon-picker package and configuration by @jeffersongoncalves in https://github.com/jeffersongoncalves/mobilekitv4/pull/65
+* build(deps-dev): bump vite from 7.2.6 to 7.2.7 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/66
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/67
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.3.0...4.3.1
+
 ## 4.2.4 - 2025-11-28
 
 ### What's Changed
