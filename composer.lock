@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80be2a9e0a469e2967686fe8fa2fd2c3",
+    "content-hash": "46acfb2e85245f8c1d1ac6018674d7bf",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -3470,12 +3470,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "2.0.1",
+            "version": "2.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/a07db726-b0f6-4839-a15d-17980cb346b3/nativephp-2.0.1.zip",
-                "reference": "cd3d308657fe6d79c3219b19fb7dba905445d231",
-                "shasum": "1762a0fe49c25c76da0e885c57340b8cfe8415ab"
+                "url": "https://nativephp.composer.sh/download/a08ba2c7-dfab-48c5-990e-a21de6e329f0/nativephp-2.1.1.zip",
+                "reference": "6ffda479bf3beb6d75a77c7538eb989c09b9342c",
+                "shasum": "4b9ce8618914352e94bf0494a2f0a9ff92f72ed6"
             },
             "require": {
                 "ext-dom": "*",
@@ -3563,7 +3563,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-12-01T19:40:43+00:00"
+            "time": "2025-12-08T17:45:20+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -8283,6 +8283,84 @@
                 }
             ],
             "time": "2024-11-21T01:49:47+00:00"
+        },
+        {
+            "name": "wallacemartinss/filament-icon-picker",
+            "version": "v1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wallacemartinss/filament-icon-picker.git",
+                "reference": "9ef04217713bd088b12b9380cfc1b78b5a16dc5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wallacemartinss/filament-icon-picker/zipball/9ef04217713bd088b12b9380cfc1b78b5a16dc5c",
+                "reference": "9ef04217713bd088b12b9380cfc1b78b5a16dc5c",
+                "shasum": ""
+            },
+            "require": {
+                "blade-ui-kit/blade-icons": "^1.0",
+                "filament/filament": "^4.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.16"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.26",
+                "orchestra/testbench": "^10.0",
+                "phpunit/phpunit": "^11.0"
+            },
+            "suggest": {
+                "blade-ui-kit/blade-heroicons": "Heroicons - 1300+ icons (recommended)",
+                "blade-ui-kit/blade-tabler-icons": "Tabler Icons - 4400+ icons",
+                "codeat3/blade-bootstrap-icons": "Bootstrap Icons - 2000+ icons",
+                "codeat3/blade-google-material-design-icons": "Google Material Design - 10000+ icons",
+                "codeat3/blade-phosphor-icons": "Phosphor Icons - 9000+ icons",
+                "codeat3/blade-remix-icon": "Remix Icons - 2800+ icons",
+                "mallardduck/blade-lucide-icons": "Lucide Icons - 1400+ icons",
+                "owenvoke/blade-fontawesome": "Font Awesome - 2800+ icons"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wallacemartinss\\FilamentIconPicker\\FilamentIconPickerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wallacemartinss\\FilamentIconPicker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wallace Martins",
+                    "email": "wallacemartinss@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A beautiful icon picker component for Filament v4 using blade-ui-kit/blade-icons",
+            "homepage": "https://github.com/wallacemartinss/filament-icon-picker",
+            "keywords": [
+                "FontAwesome",
+                "Heroicons",
+                "Phosphor",
+                "blade-icons",
+                "filament",
+                "filament-plugin",
+                "icon-picker",
+                "laravel",
+                "material-icons"
+            ],
+            "support": {
+                "issues": "https://github.com/wallacemartinss/filament-icon-picker/issues",
+                "source": "https://github.com/wallacemartinss/filament-icon-picker/tree/v1.4.4"
+            },
+            "time": "2025-12-08T15:12:49+00:00"
         }
     ],
     "packages-dev": [
@@ -12297,5 +12375,5 @@
         "ext-pcntl": "7.1",
         "ext-posix": "7.1"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
