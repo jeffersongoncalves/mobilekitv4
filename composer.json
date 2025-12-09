@@ -23,7 +23,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.3",
-        "filament/filament": "^4.2",
+        "filament/filament": "^4.3",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6",
