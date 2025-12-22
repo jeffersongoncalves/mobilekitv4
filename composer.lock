@@ -3473,12 +3473,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/a094373b-a384-4731-84e3-9f9a2d18750f/nativephp-2.2.0.zip",
-                "reference": "0d2c9976f2b049d9cb6e3095156ebb45afa512b6",
-                "shasum": "3a8dc51d51957d684f19172d611ee6b6301e9aed"
+                "url": "https://nativephp.composer.sh/download/a0a686b3-e3b3-4215-b251-80c3cd1e15f8/nativephp-2.3.0.zip",
+                "reference": "e6618043c215e99eb126295458fa364cc28ecd1d",
+                "shasum": "edeeb9d43c7972ce818a8194a707836600fd4cb0"
             },
             "require": {
                 "ext-dom": "*",
@@ -3566,7 +3566,7 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-12-13T00:07:04+00:00"
+            "time": "2025-12-22T02:34:10+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -3812,16 +3812,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "fa1f0b8261ed150447979eb22e373b7b7ad5a8e0"
+                "reference": "c99059c0315591f1a0db7ad6002000288ab8dc72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/fa1f0b8261ed150447979eb22e373b7b7ad5a8e0",
-                "reference": "fa1f0b8261ed150447979eb22e373b7b7ad5a8e0",
+                "url": "https://api.github.com/repos/nette/utils/zipball/c99059c0315591f1a0db7ad6002000288ab8dc72",
+                "reference": "c99059c0315591f1a0db7ad6002000288ab8dc72",
                 "shasum": ""
             },
             "require": {
@@ -3895,9 +3895,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.0"
+                "source": "https://github.com/nette/utils/tree/v4.1.1"
             },
-            "time": "2025-12-01T17:49:23+00:00"
+            "time": "2025-12-22T12:14:32+00:00"
         },
         {
             "name": "nikic/php-parser",
