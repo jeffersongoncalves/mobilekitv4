@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.4.0 - 2025-12-30
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/68
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/69
+* build(deps-dev): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/70
+* build(deps-dev): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/71
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/72
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/73
+* build(deps): bump livewire/livewire from 3.7.1 to 3.7.2 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/74
+* build(deps): bump livewire/livewire from 3.7.2 to 3.7.3 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/75
+* build(deps): bump nativephp/mobile from 2.2.0 to 2.3.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/76
+* build(deps): bump laravel/framework from 12.43.1 to 12.44.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/77
+* build(deps-dev): bump barryvdh/laravel-debugbar from 3.16.2 to 3.16.3 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/78
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.3.1...4.4.0
+
 ## 4.3.1 - 2025-12-09
 
 ### What's Changed
