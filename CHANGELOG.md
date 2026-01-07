@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.5.0 - 2026-01-07
+
+### What's Changed
+
+* Add funding information for GitHub sponsors by @jeffersongoncalves in https://github.com/jeffersongoncalves/mobilekitv4/pull/79
+* Update funding contributors in FUNDING.yml by @jeffersongoncalves in https://github.com/jeffersongoncalves/mobilekitv4/pull/80
+* build(deps): bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/81
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/82
+* build(deps): bump the actions-deps group with 3 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/83
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.4.0...4.5.0
+
 ## 4.4.0 - 2025-12-30
 
 ### What's Changed
