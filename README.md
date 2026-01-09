@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![MobileKit](https://raw.githubusercontent.com/jeffersongoncalves/mobilekitv4/4.x/art/jeffersongoncalves-mobilekitv4.png)
+![MobileKit](https://raw.githubusercontent.com/jeffersongoncalves/mobilekitv4/main/art/jeffersongoncalves-mobilekitv4.png)
 
 </div>
 
