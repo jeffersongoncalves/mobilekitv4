@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.5.1 - 2026-01-07
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.5.0...4.5.1
+
 ## 4.5.0 - 2026-01-07
 
 ### What's Changed
