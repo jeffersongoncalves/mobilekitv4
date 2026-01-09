@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.5.2 - 2026-01-09
+
+### What's Changed
+
+* build(deps-dev): bump vite from 7.3.0 to 7.3.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/84
+* build(deps): bump laravel/framework from 12.45.2 to 12.46.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/85
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.5.1...4.5.2
+
 ## 4.5.1 - 2026-01-07
 
 **Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.5.0...4.5.1
