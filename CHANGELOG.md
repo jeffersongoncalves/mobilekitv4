@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.5.3 - 2026-01-13
+
+### What's Changed
+
+* build(deps): bump nativephp/mobile from 2.4.0 to 2.6.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/86
+* build(deps): bump laravel/framework from 12.46.0 to 12.47.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/87
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.5.2...4.5.3
+
 ## 4.5.2 - 2026-01-09
 
 ### What's Changed
