@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.6.0 - 2026-01-23
+
+### What's Changed
+
+* build(deps): bump the actions-deps group with 2 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/88
+* build(deps-dev): bump laravel-vite-plugin from 2.0.1 to 2.1.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/89
+* build(deps): bump laravel/framework from 12.47.0 to 12.48.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/90
+* build(deps-dev): bump larastan/larastan from 3.9.0 to 3.9.1 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/91
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.5.3...4.6.0
+
 ## 4.5.3 - 2026-01-13
 
 ### What's Changed
