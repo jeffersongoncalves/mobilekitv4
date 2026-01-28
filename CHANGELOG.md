@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.6.1 - 2026-01-28
+
+### What's Changed
+
+* build(deps-dev): bump barryvdh/laravel-debugbar from 3.16.3 to 4.0.0 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/92
+* build(deps-dev): bump axios from 1.13.2 to 1.13.3 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/93
+* build(deps-dev): bump barryvdh/laravel-debugbar from 4.0.0 to 4.0.3 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/94
+* build(deps-dev): bump axios from 1.13.3 to 1.13.4 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/95
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.6.0...4.6.1
+
 ## 4.6.0 - 2026-01-23
 
 ### What's Changed
