@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.7.0 - 2026-02-04
+
+### What's Changed
+
+* build(deps-dev): bump larastan/larastan from 3.9.1 to 3.9.2 in the actions-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/100
+* build(deps): bump the actions-deps group with 3 updates by @dependabot[bot] in https://github.com/jeffersongoncalves/mobilekitv4/pull/101
+
+**Full Changelog**: https://github.com/jeffersongoncalves/mobilekitv4/compare/4.6.3...4.7.0
+
 ## 4.6.3 - 2026-01-31
 
 ### What's Changed
