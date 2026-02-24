@@ -20,40 +20,49 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
-          fetch-depth: 2
-          fetch-tags: true
+          fetch-depth: 0
 
-      - name: Extract Filament version from current commit
+      - name: Extract Filament version from current code
         id: current
         run: |
           VERSION=$(jq -r '.packages[] | select(.name == "filament/filament") | .version' composer.lock)
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
-      - name: Extract Filament version from previous commit
+      - name: Get latest tag and its Filament version
         id: previous
         run: |
-          VERSION=$(git show HEAD^:composer.lock | jq -r '.packages[] | select(.name == "filament/filament") | .version')
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No existing tags found"
+            echo "tag=" >> $GITHUB_OUTPUT
+            echo "version=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
 
-      - name: Check if Filament was updated
+          echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+
+          TAG_VERSION=$(git show "$LATEST_TAG":composer.lock | jq -r '.packages[] | select(.name == "filament/filament") | .version')
+          echo "version=$TAG_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check if Filament was updated since last release
         id: check
         run: |
-          if [ "${{ steps.current.outputs.version }}" != "${{ steps.previous.outputs.version }}" ] && [ -n "${{ steps.previous.outputs.version }}" ]; then
+          echo "Current: ${{ steps.current.outputs.version }}"
+          echo "Tag (${{ steps.previous.outputs.tag }}): ${{ steps.previous.outputs.version }}"
+
+          if [ -z "${{ steps.previous.outputs.tag }}" ]; then
+            echo "updated=false" >> $GITHUB_OUTPUT
+          elif [ "${{ steps.current.outputs.version }}" != "${{ steps.previous.outputs.version }}" ] && [ -n "${{ steps.previous.outputs.version }}" ]; then
             echo "updated=true" >> $GITHUB_OUTPUT
           else
             echo "updated=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Get latest tag and bump patch version
+      - name: Bump patch version
         if: steps.check.outputs.updated == 'true'
         id: version
         run: |
-          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-          if [ -z "$LATEST_TAG" ]; then
-            echo "No existing tags found, skipping release"
-            echo "new_tag=" >> $GITHUB_OUTPUT
-            exit 0
-          fi
+          LATEST_TAG="${{ steps.previous.outputs.tag }}"
 
           # Strip 'v' prefix if present
           VERSION="${LATEST_TAG#v}"
@@ -63,10 +72,9 @@ jobs:
 
           # Increment patch
           NEW_PATCH=$((PATCH + 1))
-          NEW_TAG="v${MAJOR}.${MINOR}.${NEW_PATCH}"
+          NEW_TAG="${MAJOR}.${MINOR}.${NEW_PATCH}"
 
           echo "new_tag=$NEW_TAG" >> $GITHUB_OUTPUT
-          echo "latest_tag=$LATEST_TAG" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         if: steps.check.outputs.updated == 'true' && steps.version.outputs.new_tag != ''
