@@ -1,0 +1,77 @@
+name: Auto Release on Filament Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - composer.lock
+
+permissions:
+  contents: write
+
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      - name: Extract Filament version from current commit
+        id: current
+        run: |
+          VERSION=$(jq -r '.packages[] | select(.name == "filament/filament") | .version' composer.lock)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Extract Filament version from previous commit
+        id: previous
+        run: |
+          VERSION=$(git show HEAD^:composer.lock | jq -r '.packages[] | select(.name == "filament/filament") | .version')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check if Filament was updated
+        id: check
+        run: |
+          if [ "${{ steps.current.outputs.version }}" != "${{ steps.previous.outputs.version }}" ] && [ -n "${{ steps.previous.outputs.version }}" ]; then
+            echo "updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "updated=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Get latest tag and bump patch version
+        if: steps.check.outputs.updated == 'true'
+        id: version
+        run: |
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No existing tags found, skipping release"
+            echo "new_tag=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Strip 'v' prefix if present
+          VERSION="${LATEST_TAG#v}"
+
+          # Split into major.minor.patch
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
+
+          # Increment patch
+          NEW_PATCH=$((PATCH + 1))
+          NEW_TAG="v${MAJOR}.${MINOR}.${NEW_PATCH}"
+
+          echo "new_tag=$NEW_TAG" >> $GITHUB_OUTPUT
+          echo "latest_tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        if: steps.check.outputs.updated == 'true' && steps.version.outputs.new_tag != ''
+        run: |
+          gh release create "${{ steps.version.outputs.new_tag }}" \
+            --target main \
+            --title "${{ steps.version.outputs.new_tag }}" \
+            --notes "Bump Filament to ${{ steps.current.outputs.version }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
