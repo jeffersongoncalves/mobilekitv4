@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 4.7.1 - 2026-02-24
+
+Bump Filament to v4.7.2
+
 ## 4.7.0 - 2026-02-04
 
 ### What's Changed
