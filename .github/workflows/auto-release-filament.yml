@@ -52,7 +52,8 @@ jobs:
           echo "Latest tag: ${{ steps.previous.outputs.tag }} (Filament: ${{ steps.previous.outputs.version }})"
 
           if [ -z "${{ steps.previous.outputs.tag }}" ]; then
-            echo "updated=false" >> $GITHUB_OUTPUT
+            echo "First release - no previous tags found"
+            echo "updated=true" >> $GITHUB_OUTPUT
           elif [ "${{ steps.current.outputs.version }}" != "${{ steps.previous.outputs.version }}" ] && [ -n "${{ steps.previous.outputs.version }}" ]; then
             echo "updated=true" >> $GITHUB_OUTPUT
           else
