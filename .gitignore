@@ -26,3 +26,5 @@ phpstan.neon
 /.zed
 /nbproject
 /.rnd
+
+.claude/settings.local.json
