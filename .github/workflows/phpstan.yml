@@ -20,7 +20,7 @@ jobs:
           coverage: none
 
       - name: Install composer dependencies
-        uses: ramsey/composer-install@v3
+        uses: ramsey/composer-install@v4
         env:
           COMPOSER_AUTH: '{"http-basic": {"nativephp.composer.sh": {"username": "${{secrets.NATIVEPHP_USERNAME}}", "password": "${{secrets.NATIVEPHP_PASSWORD}}"}}}'
 
