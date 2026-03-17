@@ -25,7 +25,7 @@
         "dutchcodingcompany/filament-developer-logins": "^2.1",
         "filament/filament": "^4.3",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1",
+        "laravel/tinker": "^3.0.0",
         "livewire/livewire": "^3.6",
         "nativephp/mobile": "^2.0",
         "wallacemartinss/filament-icon-picker": "^1.1"
