@@ -33,7 +33,7 @@ alongside desktop applications for Windows, macOS, and Linux.
 ## System Requirements
 
 ### General Requirements
-- PHP 8.2 or higher
+- PHP 8.3 or higher
 - Composer
 - Node.js and PNPM
 
