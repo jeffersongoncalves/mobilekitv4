@@ -15,7 +15,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     groups:
       actions-deps:
         patterns:
@@ -25,7 +25,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     groups:
       actions-deps:
         patterns:
@@ -37,7 +37,7 @@ updates:
     registries:
       - composer-nativephp-composer-sh
     schedule:
-      interval: "daily"
+      interval: "weekly"
     groups:
       actions-deps:
         patterns:
