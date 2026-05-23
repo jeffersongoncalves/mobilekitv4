@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "jeffersongoncalves/mobilekitv4",
     "type": "project",
-    "description": "MobileKit starter kit built on Laravel 12.x, Filament 4.x and NativePHP for native mobile applications.",
+    "description": "MobileKit starter kit built on Laravel 13.x, Filament 4.x and NativePHP for native mobile applications.",
     "keywords": [
         "laravel-starter-kit",
         "starter-kit",
@@ -24,10 +24,10 @@
         "php": "^8.3",
         "dutchcodingcompany/filament-developer-logins": "^2.1",
         "filament/filament": "^4.3",
-        "laravel/framework": "^12.0",
+        "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0.0",
         "livewire/livewire": "^3.6",
-        "nativephp/mobile": "^2.0",
+        "nativephp/mobile": "^3.0",
         "wallacemartinss/filament-icon-picker": "^1.1"
     },
     "require-dev": {
@@ -40,8 +40,8 @@
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.1",
-        "pestphp/pest": "^3.7",
-        "pestphp/pest-plugin-laravel": "^3.0"
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-laravel": "^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -123,11 +123,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nativephp.composer.sh"
-        }
-    ]
+    "prefer-stable": true
 }
