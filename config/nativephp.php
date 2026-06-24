@@ -1,5 +1,7 @@
 <?php
 
+use App\Providers\NativeAppServiceProvider;
+
 return [
 
     /*
@@ -91,7 +93,7 @@ return [
     |
     */
 
-    'provider' => \App\Providers\NativeAppServiceProvider::class,
+    'provider' => NativeAppServiceProvider::class,
 
     /*
     |--------------------------------------------------------------------------

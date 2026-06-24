@@ -24,6 +24,8 @@
         "php": "^8.3",
         "dutchcodingcompany/filament-developer-logins": "^2.1",
         "filament/filament": "^4.3",
+        "jeffersongoncalves/filament-additional-information": "^2.0",
+        "jeffersongoncalves/filament-sensible-defaults": "^2.0",
         "laravel/framework": "^13.0",
         "laravel/tinker": "^3.0.0",
         "livewire/livewire": "^3.6",

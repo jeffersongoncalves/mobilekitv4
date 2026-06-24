@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc498376c838407957ea44c420d462b4",
+    "content-hash": "6aeb47336967d4efd947948d88a636b2",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2247,6 +2247,147 @@
                 }
             ],
             "time": "2025-08-22T14:27:06+00:00"
+        },
+        {
+            "name": "jeffersongoncalves/filament-additional-information",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/filament-additional-information.git",
+                "reference": "c92e358ebde3ee69241606c17995e0a29cdfada7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-additional-information/zipball/c92e358ebde3ee69241606c17995e0a29cdfada7",
+                "reference": "c92e358ebde3ee69241606c17995e0a29cdfada7",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3|^8.4",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0",
+                "pestphp/pest": "^3.0|^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\AdditionalInformation\\FilamentAdditionalInformationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\AdditionalInformation\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A reusable Filament infolist section that displays created/updated (and any other) timestamp entries via a simple make() factory.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-additional-information",
+            "keywords": [
+                "additional-information",
+                "filament",
+                "filament-plugin",
+                "infolist",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/filament-additional-information/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-additional-information/tree/2.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jeffersongoncalves",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-06-24T00:36:22+00:00"
+        },
+        {
+            "name": "jeffersongoncalves/filament-sensible-defaults",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeffersongoncalves/filament-sensible-defaults.git",
+                "reference": "31da149e8b1d2b3953f77da97d21a1bf30c83c9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-sensible-defaults/zipball/31da149e8b1d2b3953f77da97d21a1bf30c83c9f",
+                "reference": "31da149e8b1d2b3953f77da97d21a1bf30c83c9f",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^4.0",
+                "php": "^8.2|^8.3|^8.4",
+                "spatie/laravel-package-tools": "^1.14.0"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.0",
+                "laravel/pint": "^1.21",
+                "orchestra/testbench": "^9.0|^10.0",
+                "pestphp/pest": "^3.0|^4.0",
+                "pestphp/pest-plugin-laravel": "^3.0|^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "JeffersonGoncalves\\Filament\\SensibleDefaults\\FilamentSensibleDefaultsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JeffersonGoncalves\\Filament\\SensibleDefaults\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jefferson Gonçalves",
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Filament plugin that applies a curated set of sensible, opinionated UI defaults across your panels (actions, forms, selects, date-time pickers, tables, pages and display formats) with config-driven, per-block opt-outs.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-sensible-defaults",
+            "keywords": [
+                "filament",
+                "filament-sensible-defaults",
+                "jeffersongoncalves",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/jeffersongoncalves/filament-sensible-defaults/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-sensible-defaults/tree/2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jeffersongoncalves",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-06-24T01:41:41+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
