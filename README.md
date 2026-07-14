@@ -106,6 +106,10 @@ Run migrations
 ``` bash
 php artisan native:migrate
 ```
+Build frontend assets
+``` bash
+pnpm run build
+```
 Run the server
 ``` bash
 php artisan native:serve
