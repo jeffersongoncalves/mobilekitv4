@@ -120,6 +120,7 @@
             "php-http/discovery": true
         },
         "platform": {
+            "php": "8.4.23",
             "ext-pcntl": "7.1",
             "ext-posix": "7.1"
         }
