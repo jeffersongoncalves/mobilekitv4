@@ -6,12 +6,6 @@
         "build": "vite build",
         "dev": "vite"
     },
-    "pnpm": {
-        "overrides": {
-            "rollup": ">=4.59.0",
-            "picomatch": ">=2.3.2"
-        }
-    },
     "devDependencies": {
         "@tailwindcss/vite": "^4.3.3",
         "autoprefixer": "^10.6.1",
