@@ -1,2 +1,7 @@
-onlyBuiltDependencies:
-  - esbuild
+overrides:
+  rollup: '>=4.59.0'
+  picomatch: '>=2.3.2'
+  shell-quote: '>=1.11.0'
+
+allowBuilds:
+  esbuild: true
