@@ -2,6 +2,7 @@ overrides:
   rollup: '>=4.59.0'
   picomatch: '>=2.3.2'
   shell-quote: '>=1.11.0'
+  source-map-js: '>=1.2.2'
 
 allowBuilds:
   esbuild: true
