@@ -20,6 +20,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Facades\Vite;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use JeffersonGoncalves\Filament\User\Pages\Auth\Login;
+use JeffersonGoncalves\SecurityHeaders\Middleware\SecurityHeaders;
 
 class AppPanelProvider extends PanelProvider
 {
@@ -48,6 +49,7 @@ class AppPanelProvider extends PanelProvider
                 Widgets\FilamentInfoWidget::class,
             ])
             ->middleware([
+                SecurityHeaders::class,
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,
                 StartSession::class,
