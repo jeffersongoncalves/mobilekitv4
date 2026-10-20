@@ -33,6 +33,7 @@ class GuestPanelProvider extends PanelProvider
             ->brandLogoHeight('50px')
             ->viteTheme('resources/css/filament/guest/theme.css')
             ->defaultThemeMode(config('mobilekit.theme_mode', ThemeMode::Dark))
+            ->discoverClusters(in: app_path('Filament/Guest/Clusters'), for: 'App\\Filament\\Guest\\Clusters')
             ->discoverResources(in: app_path('Filament/Guest/Resources'), for: 'App\\Filament\\Guest\\Resources')
             ->discoverPages(in: app_path('Filament/Guest/Pages'), for: 'App\\Filament\\Guest\\Pages')
             ->pages([
