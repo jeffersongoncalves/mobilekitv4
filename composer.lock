@@ -848,7 +848,8 @@
                 "issues": "https://github.com/doctrine/deprecations/issues",
                 "source": "https://github.com/doctrine/deprecations/tree/1.2.0"
             },
-            "time": "2026-11-11T10:04:49+00:00"
+            "time": "2026-11-11T10:04:49+00:00",
+            "published-time": "2026-11-11T10:12:24+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1714,7 +1715,8 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2026-09-07T18:36:26+00:00"
+            "time": "2026-09-07T18:36:26+00:00",
+            "published-time": "2026-09-20T19:15:04+00:00"
         },
         {
             "name": "filament/support",
@@ -2484,20 +2486,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-24T00:36:22+00:00"
+            "time": "2026-06-24T00:36:22+00:00",
+            "published-time": "2026-06-24T02:10:25+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-admin",
-            "version": "2.0.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-admin.git",
-                "reference": "f776ac783d8470cdf6ad96019c8c608d4b8ab4ef"
+                "reference": "d363a22eb7395354a81a4141a639c43c18772983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-admin/zipball/f776ac783d8470cdf6ad96019c8c608d4b8ab4ef",
-                "reference": "f776ac783d8470cdf6ad96019c8c608d4b8ab4ef",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-admin/zipball/d363a22eb7395354a81a4141a639c43c18772983",
+                "reference": "d363a22eb7395354a81a4141a639c43c18772983",
                 "shasum": ""
             },
             "require": {
@@ -2508,6 +2511,7 @@
                 "spatie/laravel-package-tools": "^1.16"
             },
             "require-dev": {
+                "jeffersongoncalves/pest-plugin-database-migrations": "^1.0",
                 "larastan/larastan": "^3.0",
                 "laravel/pint": "^1.21",
                 "orchestra/testbench": "^9.0|^10.0|^11.0",
@@ -2552,7 +2556,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jeffersongoncalves/filament-admin/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-admin/tree/2.0.0"
+                "source": "https://github.com/jeffersongoncalves/filament-admin/tree/2.3.0"
             },
             "funding": [
                 {
@@ -2564,20 +2568,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-26T20:37:20+00:00"
+            "time": "2026-11-05T23:57:03+00:00",
+            "published-time": "2026-11-05T23:57:22+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-security-headers",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-security-headers.git",
-                "reference": "37826ff520ab88dc923155fe2aef5f8a7b340389"
+                "reference": "8f7c06ac187a44053d5790d5aab1b63aa18be894"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-security-headers/zipball/37826ff520ab88dc923155fe2aef5f8a7b340389",
-                "reference": "37826ff520ab88dc923155fe2aef5f8a7b340389",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-security-headers/zipball/8f7c06ac187a44053d5790d5aab1b63aa18be894",
+                "reference": "8f7c06ac187a44053d5790d5aab1b63aa18be894",
                 "shasum": ""
             },
             "require": {
@@ -2635,7 +2640,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jeffersongoncalves/filament-security-headers/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-security-headers/tree/2.0.0"
+                "source": "https://github.com/jeffersongoncalves/filament-security-headers/tree/2.0.1"
             },
             "funding": [
                 {
@@ -2647,7 +2652,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-09T02:42:42+00:00"
+            "time": "2026-11-01T22:08:00+00:00",
+            "published-time": "2026-11-01T22:18:01+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-sensible-defaults",
@@ -2721,20 +2727,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-25T01:32:58+00:00"
+            "time": "2026-10-25T01:32:58+00:00",
+            "published-time": "2026-10-25T01:33:16+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-user",
-            "version": "2.0.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-user.git",
-                "reference": "31bb8b131ce9384b7ca9f525e7ca1b1adc823800"
+                "reference": "28f871a0c8e84a74729a1a696155130abb621cb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-user/zipball/31bb8b131ce9384b7ca9f525e7ca1b1adc823800",
-                "reference": "31bb8b131ce9384b7ca9f525e7ca1b1adc823800",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-user/zipball/28f871a0c8e84a74729a1a696155130abb621cb7",
+                "reference": "28f871a0c8e84a74729a1a696155130abb621cb7",
                 "shasum": ""
             },
             "require": {
@@ -2746,6 +2753,7 @@
                 "stechstudio/filament-impersonate": "^5.0"
             },
             "require-dev": {
+                "jeffersongoncalves/pest-plugin-database-migrations": "^1.0",
                 "larastan/larastan": "^3.0",
                 "laravel/pint": "^1.21",
                 "orchestra/testbench": "^9.0|^10.0|^11.0",
@@ -2789,7 +2797,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jeffersongoncalves/filament-user/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-user/tree/2.0.0"
+                "source": "https://github.com/jeffersongoncalves/filament-user/tree/2.3.0"
             },
             "funding": [
                 {
@@ -2801,20 +2809,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-26T20:37:20+00:00"
+            "time": "2026-11-06T00:06:06+00:00",
+            "published-time": "2026-11-06T00:07:28+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-admin",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-admin.git",
-                "reference": "0df3e7c4ec335ad751aeecc54a775946a8920584"
+                "reference": "87b3d0c960445dcb05d0815f4d6ed84884f4be15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-admin/zipball/0df3e7c4ec335ad751aeecc54a775946a8920584",
-                "reference": "0df3e7c4ec335ad751aeecc54a775946a8920584",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-admin/zipball/87b3d0c960445dcb05d0815f4d6ed84884f4be15",
+                "reference": "87b3d0c960445dcb05d0815f4d6ed84884f4be15",
                 "shasum": ""
             },
             "require": {
@@ -2823,6 +2832,7 @@
                 "spatie/laravel-package-tools": "^1.16"
             },
             "require-dev": {
+                "jeffersongoncalves/pest-plugin-database-migrations": "^1.0",
                 "larastan/larastan": "^3.0",
                 "laravel/pint": "^1.24",
                 "orchestra/testbench": "^10.0|^11.0",
@@ -2869,7 +2879,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jeffersongoncalves/laravel-admin/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-admin/tree/1.0.1"
+                "source": "https://github.com/jeffersongoncalves/laravel-admin/tree/1.0.2"
             },
             "funding": [
                 {
@@ -2881,7 +2891,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-26T20:53:00+00:00"
+            "time": "2026-10-28T14:57:36+00:00",
+            "published-time": "2026-10-28T15:01:19+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-security-headers",
@@ -2957,20 +2968,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-09T11:57:51+00:00"
+            "time": "2026-10-09T11:57:51+00:00",
+            "published-time": "2026-10-09T11:57:58+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-user",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-user.git",
-                "reference": "3cabb47899c180b950c6f6fbf1baa497d02562f4"
+                "reference": "b84ac76bda2e441092c58550148071dd02ad728b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-user/zipball/3cabb47899c180b950c6f6fbf1baa497d02562f4",
-                "reference": "3cabb47899c180b950c6f6fbf1baa497d02562f4",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-user/zipball/b84ac76bda2e441092c58550148071dd02ad728b",
+                "reference": "b84ac76bda2e441092c58550148071dd02ad728b",
                 "shasum": ""
             },
             "require": {
@@ -2979,6 +2991,7 @@
                 "spatie/laravel-package-tools": "^1.16"
             },
             "require-dev": {
+                "jeffersongoncalves/pest-plugin-database-migrations": "^1.0",
                 "larastan/larastan": "^3.0",
                 "laravel/pint": "^1.24",
                 "orchestra/testbench": "^10.0|^11.0",
@@ -3023,7 +3036,7 @@
             ],
             "support": {
                 "issues": "https://github.com/jeffersongoncalves/laravel-user/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-user/tree/1.0.1"
+                "source": "https://github.com/jeffersongoncalves/laravel-user/tree/1.0.2"
             },
             "funding": [
                 {
@@ -3035,7 +3048,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-26T20:52:55+00:00"
+            "time": "2026-10-28T14:57:44+00:00",
+            "published-time": "2026-10-28T15:01:20+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
@@ -5234,7 +5248,8 @@
                 "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/2.2.1"
             },
-            "time": "2025-11-10T21:21:55+00:00"
+            "time": "2025-11-10T21:21:55+00:00",
+            "published-time": "2026-09-27T10:14:49+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -5292,7 +5307,8 @@
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
                 "source": "https://github.com/phpDocumentor/TypeResolver/tree/2.1.0"
             },
-            "time": "2026-09-27T19:32:54+00:00"
+            "time": "2026-09-27T19:32:54+00:00",
+            "published-time": "2026-09-28T18:39:55+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -5414,7 +5430,8 @@
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
                 "source": "https://github.com/phpstan/phpdoc-parser/tree/2.4.1"
             },
-            "time": "2026-10-30T19:36:28+00:00"
+            "time": "2026-10-30T19:36:28+00:00",
+            "published-time": "2026-10-30T19:37:11+00:00"
         },
         {
             "name": "pragmarx/google2fa",
@@ -6849,25 +6866,26 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-28T07:16:50+00:00"
+            "time": "2026-09-28T07:16:50+00:00",
+            "published-time": "2026-09-28T07:17:01+00:00"
         },
         {
             "name": "spatie/laravel-settings",
-            "version": "3.9.0",
+            "version": "3.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-settings.git",
-                "reference": "6c1351cf57c4ae96cd2313ae395c6d367dfeee01"
+                "reference": "d59240a2d4391a869ecc554e725f489d2b491787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-settings/zipball/6c1351cf57c4ae96cd2313ae395c6d367dfeee01",
-                "reference": "6c1351cf57c4ae96cd2313ae395c6d367dfeee01",
+                "url": "https://api.github.com/repos/spatie/laravel-settings/zipball/d59240a2d4391a869ecc554e725f489d2b491787",
+                "reference": "d59240a2d4391a869ecc554e725f489d2b491787",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/database": "^11.0|^12.0|^13.0",
+                "illuminate/database": "^12.0|^13.0",
                 "php": "^8.2",
                 "phpdocumentor/type-resolver": "^1.5|^2.0",
                 "spatie/temporary-directory": "^1.3|^2.0"
@@ -6875,12 +6893,12 @@
             "require-dev": {
                 "ext-redis": "*",
                 "mockery/mockery": "^1.4",
-                "orchestra/testbench": "^9.0|^10.0|^11.0",
-                "pestphp/pest": "^2.0|^3.0|^4.0",
-                "pestphp/pest-plugin-laravel": "^2.0|^3.0|^4.0",
+                "orchestra/testbench": "^10.0|^11.0",
+                "pestphp/pest": "^3.0|^4.0|^5.0",
+                "pestphp/pest-plugin-laravel": "^3.0|^4.0|^5.0",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
+                "phpstan/phpstan-deprecation-rules": "^2.0",
+                "phpstan/phpstan-phpunit": "^2.0",
                 "spatie/laravel-data": "^2.0.0|^4.0.0",
                 "spatie/pest-plugin-snapshots": "^2.0",
                 "spatie/phpunit-snapshot-assertions": "^4.2|^5.0",
@@ -6922,7 +6940,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-settings/issues",
-                "source": "https://github.com/spatie/laravel-settings/tree/3.9.0"
+                "source": "https://github.com/spatie/laravel-settings/tree/3.10.2"
             },
             "funding": [
                 {
@@ -6934,7 +6952,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-26T13:18:06+00:00"
+            "time": "2026-11-13T09:33:22+00:00",
+            "published-time": "2026-11-13T09:33:40+00:00"
         },
         {
             "name": "spatie/shiki-php",
@@ -7060,20 +7079,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-22T07:55:44+00:00"
+            "time": "2026-06-22T07:55:44+00:00",
+            "published-time": "2026-06-22T07:55:53+00:00"
         },
         {
             "name": "stechstudio/filament-impersonate",
-            "version": "v5.6.0",
+            "version": "v5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stechstudio/filament-impersonate.git",
-                "reference": "2f6357e3d4564dabfdec4c1c2c636edafe83d944"
+                "reference": "2c4f62925f6dd9ceb02271d3cd5f01433385ec62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stechstudio/filament-impersonate/zipball/2f6357e3d4564dabfdec4c1c2c636edafe83d944",
-                "reference": "2f6357e3d4564dabfdec4c1c2c636edafe83d944",
+                "url": "https://api.github.com/repos/stechstudio/filament-impersonate/zipball/2c4f62925f6dd9ceb02271d3cd5f01433385ec62",
+                "reference": "2c4f62925f6dd9ceb02271d3cd5f01433385ec62",
                 "shasum": ""
             },
             "require": {
@@ -7104,9 +7124,10 @@
             "description": "A Filament package to impersonate your users.",
             "support": {
                 "issues": "https://github.com/stechstudio/filament-impersonate/issues",
-                "source": "https://github.com/stechstudio/filament-impersonate/tree/v5.6.0"
+                "source": "https://github.com/stechstudio/filament-impersonate/tree/v5.7.0"
             },
-            "time": "2026-07-06T12:39:32+00:00"
+            "time": "2026-11-04T01:29:17+00:00",
+            "published-time": "2026-11-04T01:34:00+00:00"
         },
         {
             "name": "symfony/clock",
